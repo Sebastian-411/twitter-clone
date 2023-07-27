@@ -35,7 +35,6 @@ const Button: React.FC<ButtonProps> = ({
             ${large ? "text-xl" : "text-md"}
             ${large ? "px-5" : "px-4"}
             ${large ? "py-3" : "py-2"}
-            ${disabled ? "w-full" : "w-fit"}
             ${outline ? "bg-transparent" : ""}
             ${outline ? "border-white" : ""}
             ${outline ? "text-white" : ""}
