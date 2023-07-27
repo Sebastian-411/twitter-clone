@@ -44,7 +44,7 @@ const Sidebar = () => {
                         auth={item.auth}
                         />
                     ))}
-                    {currentUser&&
+                    { currentUser &&
                     ((<SidebarItem onClick={() => signOut()} icon={BiLogOut} label="Log Out"/>))}
                     <SidebarTweetButton />
                 </div>
